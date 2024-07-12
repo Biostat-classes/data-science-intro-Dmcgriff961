@@ -364,7 +364,6 @@ pairs(airquality)
 plot(Ozone~Temp, airquality, col=airquality$Month)
 
 #We'll be introducing another graphing package, ggplot2, later this semester
-
 #FORMAL ANALYSIS####
 # Now lets do some basic analyses.  the easiest way to do this is using linear models (a more general description
 # for regression, t-tests, ANOVAs, ANCOVAs.  If you prefer there are commands that specifically do these only
@@ -377,7 +376,6 @@ summary(ozone_month_relationship)
 
 #or we can get traditional p values (don't worry if you don't know/remember what 
 #these are).  we need to install a package to do this.
-
 #FUNCTIONS FROM NON-BASIC PACKAGES####
 #Illustrating help function:  Let's say you need to use a function but when you run it  you get an error like this
 
